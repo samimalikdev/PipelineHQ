@@ -23,7 +23,6 @@
 <br />
 
 
-> **Status:** ✅ Complete  |  🧪 First React App
 
 </div>
 
