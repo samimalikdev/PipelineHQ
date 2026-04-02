@@ -182,16 +182,19 @@ npm run dev
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/Screenshot1.jpeg" width="250" alt="Screenshot 1"/>
-  <img src="assets/Screenshot2.jpeg" width="250" alt="Screenshot 2"/>
-  <img src="assets/Screenshot3.jpeg" width="250" alt="Screenshot 3"/>
+  <img src="assets/Screenshot2.png" width="250" alt="Screenshot 2"/>
+  <img src="assets/Screenshot3.png" width="250" alt="Screenshot 3"/>
+  <img src="assets/Screenshot7.png" width="250" alt="Screenshot 7"/>
 </p>
 
 <p align="center">
-  <img src="assets/Screenshot4.jpeg" width="250" alt="Screenshot 4"/>
-  <img src="assets/Screenshot5.jpeg" width="250" alt="Screenshot 5"/>
-  <img src="assets/Screenshot6.jpeg" width="250" alt="Screenshot 6"/>
-  <img src="assets/Screenshot7.jpeg" width="250" alt="Screenshot 7"/>
+  <img src="assets/Screenshot8.png" width="250" alt="Screenshot 8"/>
+  <img src="assets/Screenshot6.png" width="250" alt="Screenshot 6"/>
+  <img src="assets/Screenshot5.png" width="250" alt="Screenshot 5"/>
+</p>
+
+<p align="center">
+  <img src="assets/Screenshot4.png" width="250" alt="Screenshot 4"/>
 </p>
 
 -----
