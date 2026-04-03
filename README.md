@@ -39,7 +39,7 @@
 |💼|**Job Management**            |Track open requisitions and keep the team focused on active postings                     |
 |📝|**Notes Workspace**           |Log candidate impressions and follow-ups, synced and accessible anywhere                 |
 |🔒|**MFA & OAuth**               |TOTP-based 2FA + GitHub and Google SSO via Supabase Auth                                 |
-|⚙️|**Settings & User Management**|Profile, security, notifications, appearance, and data privacy controls                  |
+|⚙️|**Settings & User Management**|Profile, security and data privacy controls                  |
 
 -----
 
@@ -158,9 +158,6 @@ Run the app:
 ```bash
 npm run dev
 ```
-
-> App runs at `http://localhost:5173`
-> ⚠️ Make sure the backend server is running before launching the frontend.
 
 -----
 
