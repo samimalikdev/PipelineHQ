@@ -12,61 +12,59 @@
 
 <h1>PipelineHQ</h1>
 
-<p><strong>A production-ready recruitment management platform — built with React, Node.js, and Supabase.</strong></p>
+<p><strong>A production-ready recruitment management platform, built with React, Node.js, and Supabase.</strong></p>
 
 <p><em>Better pipelines, faster hires.</em></p>
 
 <br />
 
-[✨ Features](#-features) • [🛠 Tech Stack](#-tech-stack) • [📂 Project Structure](#-project-structure) • [🚀 Getting Started](#-getting-started) • [🎬 Demo](#-demo) • [📸 Screenshots](#-screenshots)
+[Features](#features) • [Tech Stack](#tech-stack) • [Project Structure](#project-structure) • [Getting Started](#getting-started) • [Demo](#demo) • [Screenshots](#screenshots)
 
 <br />
 
-
-
 </div>
 
------
+---
 
-## ✨ Features
+## Features
 
-**PipelineHQ** is a comprehensive, production-ready Recruitment Management Application designed to streamline the hiring process. Built exclusively for recruiters and hiring managers, PipelineHQ provides a unified enterprise platform to manage candidate pipelines, coordinate job requisitions, analyze recruitment metrics, and securely manage team settings.
+**PipelineHQ** is a comprehensive, production-ready recruitment management application designed to streamline the hiring process. Built exclusively for recruiters and hiring managers, PipelineHQ provides a unified enterprise platform to manage candidate pipelines, coordinate job requisitions, analyze recruitment metrics, and securely manage team settings.
 
-| |Feature                       |Description                                                                              |
-|-|------------------------------|-----------------------------------------------------------------------------------------|
-|📊|**Dashboard & Analytics**     |Placement rates, time-to-hire stats, and 6 months of trend data at a glance              |
-|🗂️|**Candidate Pipeline**        |Drag-and-drop Kanban board with stages: New, Screening, Interview, Offer, Hired, Rejected|
-|💼|**Job Management**            |Track open requisitions and keep the team focused on active postings                     |
-|📝|**Notes Workspace**           |Log candidate impressions and follow-ups, synced and accessible anywhere                 |
-|🔒|**MFA & OAuth**               |TOTP-based 2FA + GitHub and Google SSO via Supabase Auth                                 |
-|⚙️|**Settings & User Management**|Profile, security and data privacy controls                  |
+| Feature | Description |
+|---|---|
+| **Dashboard & Analytics** | Placement rates, time-to-hire stats, and six months of trend data at a glance |
+| **Candidate Pipeline** | Drag-and-drop Kanban board with stages: New, Screening, Interview, Offer, Hired, Rejected |
+| **Job Management** | Track open requisitions and keep the team focused on active postings |
+| **Notes Workspace** | Log candidate impressions and follow-ups, synced and accessible anywhere |
+| **MFA & OAuth** | TOTP-based two-factor authentication plus GitHub and Google SSO via Supabase Auth |
+| **Settings & User Management** | Profile, security, and data privacy controls |
 
------
+---
 
-## 🛠 Tech Stack
+## Tech Stack
 
-### 📱 Frontend — React
+### Frontend — React
 
-|Category            |Technology     |
-|--------------------|---------------|
-|**Framework**       |React 19 + Vite|
-|**Styling**         |Tailwind CSS   |
-|**State Management**|Zustand        |
-|**Animations**      |GSAP           |
+| Category | Technology |
+|---|---|
+| **Framework** | React 19 + Vite |
+| **Styling** | Tailwind CSS |
+| **State Management** | Zustand |
+| **Animations** | GSAP |
 
-### 🖥 Backend — Node.js
+### Backend — Node.js
 
-|Category          |Technology                                     |
-|------------------|-----------------------------------------------|
-|**Server**        |Express.js                                     |
-|**Architecture**  |Routes -> Middlewares -> Controllers -> Services|
-|**Database**      |Supabase (PostgreSQL)                          |
-|**File Storage**  |Supabase Storage                               |
-|**Authentication**|Supabase Auth — TOTP MFA, GitHub & Google OAuth|
+| Category | Technology |
+|---|---|
+| **Server** | Express.js |
+| **Architecture** | Routes → Middlewares → Controllers → Services |
+| **Database** | Supabase (PostgreSQL) |
+| **File Storage** | Supabase Storage |
+| **Authentication** | Supabase Auth — TOTP MFA, GitHub & Google OAuth |
 
------
+---
 
-## 📂 Project Structure
+## Project Structure
 
 ### Frontend (`/src`)
 ```text
@@ -78,7 +76,7 @@ src/
 ├── lib/            # External library configurations (e.g., Supabase client)
 ├── pages/          # Full page layouts and views
 ├── store/          # Zustand state management stores
-├── App.jsx         # Root frontend component and Routing
+├── App.jsx         # Root frontend component and routing
 └── index.css       # Tailwind entry point and root variables
 ```
 
@@ -93,16 +91,16 @@ server/
 └── server.js       # Express server entry point
 ```
 
------
+---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) `>=18.x`
-- Active [Supabase](https://supabase.com/) instance with a configured Database and Storage bucket
+- Active [Supabase](https://supabase.com/) instance with a configured database and storage bucket
 
------
+---
 
 ### 1. Clone the Repository
 
@@ -111,7 +109,7 @@ git clone https://github.com/samimalikdev/PipelineHQ.git
 cd PipelineHQ
 ```
 
------
+---
 
 ### 2. Backend Setup
 
@@ -136,7 +134,7 @@ npm run dev
 
 > Server runs at `http://localhost:5000`
 
------
+---
 
 ### 3. Frontend Setup
 
@@ -159,52 +157,45 @@ Run the app:
 npm run dev
 ```
 
------
+---
 
-## 🎬 Demo
+## Demo
 
-### 📹 Full App Walkthrough
+### Full App Walkthrough
 
 <div align="center">
   <a href="https://youtu.be/KCyTxrQIVAE?si=ubFitOm8hPzxMeep">
     <img src="https://img.youtube.com/vi/KCyTxrQIVAE/maxresdefault.jpg" alt="PipelineHQ - Full App Demo" width="700"/>
   </a>
-  <p><b>🎥 Click to watch the complete feature demonstration</b></p>
-  <p><i>Dashboard, Kanban pipeline, Notes workspace, MFA flow, and more — all in action.</i></p>
+  <p><b>Click to watch the complete feature demonstration</b></p>
+  <p><i>Dashboard, Kanban pipeline, Notes workspace, MFA flow, and more, all in action.</i></p>
 </div>
 
------
+---
 
-## 📸 Screenshots
+## Screenshots
 
 <p align="center">
-  <img src="assets/Screenshot2.png" width="250" alt="Screenshot 2"/>
-  <img src="assets/Screenshot3.png" width="250" alt="Screenshot 3"/>
-  <img src="assets/Screenshot7.png" width="250" alt="Screenshot 7"/>
+  <img src="assets/pipe1.png" width="100%" alt="App 1"/>
 </p>
 
 <p align="center">
-  <img src="assets/Screenshot8.png" width="250" alt="Screenshot 8"/>
-  <img src="assets/Screenshot6.png" width="250" alt="Screenshot 6"/>
-  <img src="assets/Screenshot5.png" width="250" alt="Screenshot 5"/>
+  <img src="assets/pipe2.png" width="100%" alt="App 2"/>
 </p>
 
-<p align="center">
-  <img src="assets/Screenshot4.png" width="250" alt="Screenshot 4"/>
-</p>
 
------
+---
 
-## 📄 License
+## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
------
+---
 
 <div align="center">
 
-First React app. Built from scratch. Shipped anyway. 🚀
+First React app. Built from scratch. Shipped anyway.
 
-If this helped you, drop a ⭐ — it means a lot.
+If this helped you, drop a star — it means a lot.
 
 </div>
